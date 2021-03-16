@@ -1,9 +1,0 @@
-*::selection{
-    color: white;
-    background-color: black;
-}
-
-img::selection{
-    background-color: transparent;
-    color: transparent;
-}
