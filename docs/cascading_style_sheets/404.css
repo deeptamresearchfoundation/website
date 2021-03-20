@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#error404 {
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 70px;
+    font-family: monospace;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#back {
+    border: transparent 2px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    opacity: 0.5;
+    color: white;
+    padding: 10px;
+    transition: 0.8s;
+    font-family: sans-serif;
+}
+
+#back:hover {
+    color: white;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+#back {
+    font-size: 20px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

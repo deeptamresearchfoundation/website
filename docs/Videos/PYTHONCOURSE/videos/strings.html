@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>#4 - Strings in Python</title>
+	<!-- <link rel="stylesheet" href="../Cascading Style Sheets/Header of PYTHONCOURSEs.css"> -->
+	<link rel="stylesheet" href="../../../cascading_style_sheets/select.css">
+	<link rel="stylesheet" href="../../../cascading_style_sheets/scroll.css">
+	<link rel="shortcut icon" href="../../../images/LOGO.png" type="image/x-icon">
+	<link rel="stylesheet" href="../../../cascading_style_sheets/bootstrap.min.css">
+	<link rel="stylesheet" href="../Cascading Style Sheets/python.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../Cascading Style Sheets/footer.css">
+</head>
+
+<body style="background-color: rgba(255,255,255,255); z-index: 2; width: 100%;">
+
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#"><img src="../../../images/LOGO.png" alt="icon"
+            style="width: 70px; height: 60px; border-radius: 50%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+					<a class="nav-link" href="../../../HOME/home.html">Home</a>
+                </li>
+                <li class="nav-item">
+					<a class="nav-link" href="../../../Videos/videos.html">Videos</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+				</li>
+                <li class="nav-item">
+					<a class="nav-link" href="../../../Contact Us/contact_us.html">Contact Us</a>
+				</li>
+            </ul>
+            <a href="../../../Search/search.html"><button class="btn btn-outline-success my-2 my-sm-0 form-inline my-2 my-lg-0" type="submit"
+                >Search The Courses</button></a>
+        </div>
+    </nav>
+	<div class="iframe_and_Player">
+		<div style="
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 56.25%;
+		  ">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/sBoKqNsxSsk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;"></iframe>
+		</div>
+		<!-- <p id="player"><a href="../../python.html">Go to Player</a></p> -->
+	</div>
+
+	<div class="source_code">
+
+		<h2>Strings in Python</h2>
+		<h3>In this video, I have shown you what String actually is in Python</h3>
+		<p>In programming terms, we usually call text a string. When you 
+            think of a string as a collection of letters, the term makes sense. 
+            All the letters, numbers, and symbols could be a string. 
+            For that matter, your name could be a string, and so could your 
+            address. In fact, the first Python program we used a 
+            string: “Hello World.”</p>
+		<p>Strings are only in quotes that quotes may be double quotes ("") or single quotes ('')</p>
+		<h5>Syntax to make Strings</h5>
+		<p><button>Step 1</button> First write the name of the variable</p>
+		<p><button>Step 2</button> And type '=' and under quotes type any text.</p>
+        <p>Like in this example</p>
+        <p>a = "Hello world"</p>
+        <p>print(a)</p>
+        <p>print(type(a))</p>
+        <br>
+        <p>We get :</p>
+        <p>Hello world</p>
+        <p>class 'strings'</p>
+        <br>
+        <h5>Concatanating string</h5>
+        <p>if you want to concatanate ( adding two strings ) a and b variable as follows :</p>
+		<p>a = 'Strings in'</p>
+		<p>b = 'Python'</p>
+        <p>print(a + b)</p>
+		<p>We get :</p>
+		<p>Strings in Python</p>
+        <br>
+        <h5>Embedding Strings</h5>
+        <p>To embed the string we use placeholders that is %s</p>
+        <p>Like in this example</p>
+
+        <p>a = "I have Scored"</p>
+        <p>b = "1000 points"</p>
+            
+        <p>print("I have Scored %s" % b) # %s is use to embed strings</p>
+            
+        <h5>We can't take calculation like subtraction, division of strings</h5>
+
+		<h3>Source Code</h3>
+		<div class="code">
+			<!-- <p class="copy"><button>copy</button></p> -->
+			<textarea readonly id="myInput" class="mycode">a = "this is the tutorial of strings"
+print(a)
+
+print(len(a)) # len function is used to find the lenght of the strings alongwith spaces
+print(a[1]) # square brackets is used to find the word in the 1 number (index is start with 0)
+
+
+# calculation of strings
+print(a * 100) # prints a variable 100 times
+
+# when you run this code you will see that a varible print the value one line aside
+# If you want to print variable a in new line You can do
+
+a = "this is the tutorial of strings\n" # \n is used to make a new line
+
+# concatanating of strings
+# If you want to concatanate the strings you can use '+' sign as follows :
+
+a = "hello"
+b = "world" 
+
+# if you want to concatanate a and b variable
+print(a + b) # concatanate variable a and b
+
+# embedding strings
+
+a = "I have Scored"
+b = "1000 points"
+
+print("I have Scored %s" % b) # %s is use to embed strings
+
+# other calculation like subtraction, division, etc..</textarea>
+		</div>
+		<button class="copy" id="copy" onclick="myFunction()">Copy to Clipboard</button>
+		<form action="../download/strings.zip">
+			<p><button class="download">Download as zip</button></p>
+		</form>
+		<br>
+		<br>
+		<p>Run it by right click and click on run in Terminal in Visual Studio Code</p>
+
+
+		<p id="player"><a href="../../python.html">Go to Player</a></p>
+
+	</div>
+
+
+	<section>
+		<div class="footer">
+			<div class="anchor2">
+				<a href="../../../Videos/videos.html">Videos</a>
+				<a href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A" target="_blank" rel="noopener noreferrer">Watch On youtube</a>
+				<a href="../../../Contact Us/contact_us.html">Contact Us</a>
+			</div>
+		</div>
+	</section>
+
+	<script src="../../../javascript/source.js"></script>
+	<script src="../js/source.js"></script>
+</body >
+
+</html >
