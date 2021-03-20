@@ -8,11 +8,7 @@ function sendemail() {
     var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
 
     Email.send({
-        // secure-token: c67899b3-aabc-440b-8751-860e9f33bb1b;
-
-        Host : "smtp.gmail.com",
-        Username : "deeptamresearchfoundationweb@gmail.com",
-        Password : "aayushkumarjha@drf",
+        SecureToken: "31c101ed-19a9-4ff2-9d94-ba71df93dba2",
         To : 'deeptamresearchfoundation@gmail.com',
         From : "deeptamresearchfoundation@gmail.com",
         Subject : "New message on contact us form " + name,
