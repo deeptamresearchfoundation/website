@@ -33,15 +33,15 @@
     color: #fff;
     margin: 10px;
     border: transparent  2px solid;
-    border-radius: 10px;
+    border-radius: 3px;
     box-sizing: border-box;
     transition: 0.7s;
-    opacity: 0.5;
+    opacity: 1;
     padding: 10px;
     background-color: rgb(243, 74, 74);
 }
 
 .pythoncourses a:hover{
     transition: 0.7s;
-    opacity: 0.8;
+    opacity: 0.9;
 }
