@@ -5,7 +5,7 @@ function sendemail() {
     var subject = $('#message').val();
     var message = $('#message').val();
 
-    var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>message: ' + subject + '<br>Message: ' + message;
+    var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
 
     Email.send({
         // secure-token: c67899b3-aabc-440b-8751-860e9f33bb1b;
