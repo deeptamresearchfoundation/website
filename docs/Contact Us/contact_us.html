@@ -61,24 +61,25 @@
         </div>
         <div class="containor">
             <div class="contactForm">
-                <form action="javascript:sendemail()" method="POST">
+                <form action="javascript:sendemail()" method="POST" id="form">
                     <h2>Send Message</h2>
                     <div class="inputBox">
                         <input type="text" name="Name" id="Name" required="required" autocomplete="off">
-                        <span>Full Name</span>
+                        <span class="span">Full Name</span>
                     </div>
                     <div class="inputBox">
                         <input type="text" name="Email" id="Email" required="required" autocomplete="off">
-                        <span>Email</span>
+                        <span class="span">Email</span>
                     </div>
                     <div class="inputBox">
                         <textarea required="required" name="message" id="message" autocomplete="off"></textarea>
-                        <span>Type Your Message...</span>
+                        <span class="span">Type Your Message...</span>
                     </div>
                     <div class="inputBox">
                         <button type="submit" value="Submit" class="button">
                             submit
                         </button>
+                        <span id="load"></span>
                     </div>
                 </form>
             </div>
@@ -98,6 +99,11 @@
     </section>
 
     <script src="../javascript/contactus.js"></script>
+    <script>
+        document.getElementById("form").onsubmit=function(){
+            document.getElementById('load').style.display="inline"
+        }
+    </script>
 </body>
 
 </html>
