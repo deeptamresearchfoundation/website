@@ -3,6 +3,28 @@
     padding: 0;
 }
 
+#load{
+    transition: 2s;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    position: absolute;
+    left: 110px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: grey solid 5px;
+    display: none;
+    outline: none;
+    border-top: lightskyblue 5px solid;
+    animation: loading infinite 0.6s;
+    animation-timing-function: linear;
+}
+
+@keyframes loading{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
 .contact{
     margin-bottom: 30px;
     /* position: relative; */
@@ -113,7 +135,7 @@
     resize: none;
 }
 
-.contactForm .inputBox span{
+.contactForm .inputBox span[class = span]{
     position: absolute;
     left: 0;
     padding: 5px 0;
