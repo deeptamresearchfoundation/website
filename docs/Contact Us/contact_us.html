@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deeptam Research Foundation - Contact Us">
+    <meta name="keywords" content="Deeptam Research Foundation contact us, deeptam ersearch founation contact us, contact us, Deeptam Research Foundation">
+    <title>Contact Us - Deeptam Research Foundation</title>
+    <link rel="shortcut icon" href="../images/LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="../cascading_style_sheets/scroll.css">
+    <link rel="stylesheet" href="../cascading_style_sheets/bootstrap.min.css">
+    <link rel="stylesheet" href="../cascading_style_sheets/contact_us.css">
+    <link rel="stylesheet" href="../cascading_style_sheets/select.css">
+    <link rel="stylesheet" href="../cascading_style_sheets/footer of contact us.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../cascading_style_sheets/preloader.css">
+</head>
+
+<body class="bg-success" onload="onloadispreload()">
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <div id="bodycontent">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <a class="navbar-brand" href="#"><img src="../images/LOGO.png" alt="icon"
+                    style="width: 70px; height: 60px; border-radius: 50%;"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../HOME/home.html">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Videos/videos.html">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A"
+                            target="_blanck" rel="noopener noreferrer">Watch on YouTube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Contact Us/contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+                <a href="../Search/search.html"><button
+                        class="btn btn-outline-success my-2 my-sm-0 form-inline my-2 my-lg-0" type="submit">Search The
+                        Courses</button></a>
+            </div>
+        </nav>
+
+        <!-- Contact_us starts-->
+        <section class="contact">
+            <div class="content">
+                <h1>Contact Us</h1>
+                <div class="h3">
+                    <h2 style="font-weight: 100; padding-top: 20px;">Want to Contact Us</h2>
+                </div>
+            </div>
+            <div class="containor">
+                <div class="contactForm">
+                    <form action="javascript:sendemail()" method="POST" id="form">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="Name" id="Name" required="required" autocomplete="off">
+                            <span class="span">Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="text" name="Email" id="Email" required="required" autocomplete="off">
+                            <span class="span">Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea required="required" name="message" id="message" autocomplete="off"></textarea>
+                            <span class="span">Type Your Message...</span>
+                        </div>
+                        <div class="inputBox">
+                            <button type="submit" value="Submit" class="button">
+                                submit
+                            </button>
+                            <span id="load"></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="footer">
+                <h1
+                    style="color: white; position: relative; text-align: center; padding-top: 20px; font-weight: lighter; font-size: 2rem;">
+                    Deeptam Research Foundation</h1>
+                <div class="anchor2">
+                    <a href="../Videos/videos.html">Videos</a>
+                    <a href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A" target="_blank"
+                        rel="noopener noreferrer">Watch On youtube</a>
+                    <a href="../Contact Us/contact_us.html">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="../javascript/contactus.js"></script>
+    <script>
+        document.getElementById("form").onsubmit = function () {
+            document.getElementById('load').style.display = "inline"
+        }
+    </script>
+
+    <script src="../javascript/load.js"></script>
+</body>
+
+</html>
