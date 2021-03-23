@@ -1,0 +1,141 @@
+#player a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+    font-size: auto;
+    font: bold;
+    border: transparent  2px solid;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: 0.7s;
+    opacity: 0.5;
+    background-color: rgb(18, 165, 18);
+}
+
+#player{
+    text-align: center;
+}
+
+#player a:hover{
+    transition: 0.7s;
+    opacity: 0.8;
+}
+
+.iframe_and_Player{
+    display: flex;
+    flex-direction: row;
+}
+
+.source_code{
+    background-color: white;
+}
+
+.source_code h2, .source_code h1{
+    padding: 20px;
+}
+
+.source_code h1{
+    font-size: 2rem;
+}
+
+.source_code p{
+    padding-left: 20px;
+}
+
+.source_code h3{
+    padding: 20px;
+}
+
+button{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font: bold;
+    margin: 10px;
+    border: transparent  2px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    opacity: 0.7;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(18, 165, 18);
+}
+
+button:hover{
+    transition: 0.7s;
+    opacity: 0.9;
+}
+
+.comments{
+    color: rgb(72, 179, 72);
+}
+
+.image{
+    width: 60%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: black 2px solid;
+    border-radius: 3px;
+}
+
+.download{
+    padding: 5px;
+    background-color: rgb(69, 174, 240);
+}
+
+.copy{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: rgb(7, 4, 4);
+}
+
+.copy:hover{
+    opacity: 0.9;
+}
+
+.copy button:visited{
+    border: 2px solid black;
+}
+
+.mycode{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    min-height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+    overflow: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mycode textarea{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+textarea{
+    cursor: auto;
+}
+
+h3, h4, h5, h6{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
