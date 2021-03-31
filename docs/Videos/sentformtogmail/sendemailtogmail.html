@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>#2 - print() function in Python</title>
+	<meta name="description" content="In this video I have shown you how to print any text, number, etc.. in python">
+	<meta name="keywords" content="print function in python, Deeptam Research Foundation, Deeptam Research Foundation print function">
+	<link rel="stylesheet" href="../../cascading_style_sheets/select.css">
+	<link rel="stylesheet" href="../../cascading_style_sheets/scroll.css">
+	<link rel="shortcut icon" href="../../images/LOGO.png" type="image/x-icon">
+	<link rel="stylesheet" href="../../cascading_style_sheets/bootstrap.min.css">
+	<link rel="stylesheet" href="../PYTHONCOURSE/Cascading Style Sheets/python.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../PYTHONCOURSE/Cascading Style Sheets/footer.css">
+	<link rel="stylesheet" href="../../cascading_style_sheets/preloader.css">
+</head>
+
+<body style="background-color: rgba(255,255,255,255); z-index: 2; width: 100%;" onload="onloadispreload()">
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<div id="bodycontent">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#"><img src="../../images/LOGO.png" alt="icon"
+					style="width: 70px; height: 60px; border-radius: 50%;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../../HOME/home.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../Videos/videos.html">Videos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A"
+							target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../..Contact Us/contact_us.html">Contact Us</a>
+					</li>
+				</ul>
+				<a href="../../Search/search.html"><button
+						class="btn btn-outline-success my-2 my-sm-0 form-inline my-2 my-lg-0" type="submit">Search The
+						Courses</button></a>
+			</div>
+		</nav>
+		<div class="iframe_and_Player">
+			<div style="
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 56.25%;
+		  ">
+				<iframe width="100%" height="1000px" src="" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen style="  position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;"></iframe>
+			</div>
+			<!-- <p id="player"><a href="../../python.html">Go to Player</a></p> -->
+		</div>
+
+		<div class="source_code">
+
+			<h1>How to send form to gmail</h1>
+			<h3>In this Video, I have shown you how you can make a working Contact Us using just only HTML, CSS, JS</h3>
+			<p>Whenever you learn a new programming language, first you have to learn how to print any word text number
+			</p>
+			<p>To do so in Python we use print() function</p>
+			<p>Syntax to use print() function</p>
+			<p><button>Step 1</button> First write print()</p>
+			<p><button>Step 2</button> Inside parentheses type anything that you want to print under quotes.</p>
+
+			<h3>Source Code</h3>
+			<div class="code">
+				<h1>index.html code here</h1>
+				<textarea wrap="off" wrap="off" readonly id="myInput" class="mycode2" rows="404"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6, span, p {
+            font-family: sans-serif;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        body {
+            background-color: #E9ECEF;
+        }
+
+        #load {
+            transition: 2s;
+            margin-top: 5px;
+            margin-bottom: 1px;
+            position: absolute;
+            left: 110px;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            border: grey solid 5px;
+            display: none;
+            outline: none;
+            border-top: lightskyblue 5px solid;
+            animation: loading infinite 0.6s;
+            animation-timing-function: linear;
+        }
+
+        @keyframes loading {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .contact {
+            margin-bottom: 30px;
+            /* position: relative; */
+            min-height: auto;
+            padding-top: 40px;
+            padding-right: 100px;
+            padding-left: 100px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background: url();
+            background-size: cover;
+        }
+
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .contact .content h2,
+        .contact .contact h1 {
+            font-size: 36px;
+            font-weight: 500;
+            color: rgb(0, 0, 0);
+        }
+
+        .contact .content p {
+            font-weight: 300;
+            color: rgb(0, 0, 0);
+        }
+
+        .containor {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .containor .contactinfo {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .containor .contactinfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+
+        .containor .contactinfo .box {
+            min-width: 60px;
+            height: 60px;
+        }
+
+        .containor .contactinfo .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: rgb(0, 0, 0);
+            flex-direction: column;
+            font-weight: 300;
+        }
+
+        .box {
+            display: block;
+        }
+
+        .containor .contactinfo .box .text h3 {
+            font-weight: 500;
+            color: #00bcd4;
+        }
+
+        .contactForm {
+            width: 50%;
+            padding: 70px;
+            background: #fff;
+        }
+
+
+        .contactForm h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .contactForm .inputBox input,
+        .contactForm .inputBox textarea {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+
+        .contactForm .inputBox span[class=span] {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5s;
+            color: #666;
+        }
+
+        .contactForm .inputBox input:focus~span,
+        .contactForm .inputBox input:valid~span,
+        .contactForm .inputBox textarea:focus~span,
+        .contactForm .inputBox textarea:valid~span {
+
+            color: #000000;
+            font-size: 12px;
+            transform: translateY(-20px)
+        }
+
+        .contact p,
+        .contact h2,
+        .contact h3 {
+            z-index: -2;
+        }
+
+
+        .contactForm .inputBox button[type="submit"] {
+            opacity: 0.6;
+            width: 100px;
+            background: #00bcd4;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+            transition: all ease 0.5s;
+        }
+
+        .contactForm .inputBox button[type="submit"]:hover {
+            transition: 0.3s;
+            opacity: 1;
+        }
+
+
+
+        @media (max-width: 800px) {
+            .contact {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .containor {
+                flex-direction: column;
+            }
+
+            .containor .contactinfo {
+                margin-bottom: 40px;
+            }
+
+            .containor .contactinfo {
+                padding-left: 10px;
+                width: auto;
+            }
+
+            .contactForm {
+                /* padding-left: 50px; */
+                width: auto;
+            }
+        }
+
+        @media (max-width: 352px) {
+            .containor .contactinfo .box {
+                display: none;
+            }
+        }
+
+        @media (min-width: 353px) {
+            .containor .contactinfo .box {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contact_us starts-->
+    <section class="contact">
+        <div class="content">
+            <h1>Contact Us</h1>
+            <div class="h3">
+                <h2 style="font-weight: 100; padding-top: 20px;">Want to Contact Us</h2>
+            </div>
+        </div>
+        <div class="containor">
+            <div class="contactForm">
+                <form action="javascript:sendemail()" method="POST" id="form">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="Name" id="Name" required="required" autocomplete="off" placeholder="Full Name">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="Email" id="Email" required="required" autocomplete="off" placeholder="Email ID">
+                    </div>
+                    <div class="inputBox">
+                        &lt;textarea type="text" required="required" name="message" id="message" autocomplete="off" 
+                        placeholder="Type your Message"&gt;&lt;/textarea&gt;
+                    </div>
+                    <div class="inputBox">
+                        <button type="submit" value="Submit" class="button">
+                            submit
+                        </button>
+                        <span id="load"></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact us ends -->
+
+    <!-- script starts -->
+
+    <!--this is essential to link this smtp and jquery cdn link-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!--this is essential to link this smtp and jquery cdn link-->
+
+    <script>
+        function sendemail() {
+
+            var name = $('#Name').val();
+            var email = $('#Email').val();
+            var message = $('#message').val();
+
+            var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
+
+            Email.send({
+                SecureToken: "31c101ed-19a9-4ff2-9d94-ba71df93dba2",
+                To: 'deeptamresearchfoundation@gmail.com',
+                From: "deeptamresearchfoundation@gmail.com",
+                Subject: "New message on contact us form " + name,
+                Body: Body
+
+            }).then(
+                message => {
+                    //console.log (message);
+                    if (message == 'OK') {
+                        window.location.replace("thankyou.html")
+                    }
+                    else {
+                        console.error(message);
+                        window.location.replace("error.html")
+
+                    }
+
+                }
+            );
+        }
+    </script>
+
+    <script>
+        document.getElementById("form").onsubmit = function () {
+            document.getElementById('load').style.display = "inline"
+        }
+    </script>
+    <!--script ends-->
+</body>
+
+</html></textarea>
+			</div><br>
+			<button class="copy" id="copy" onclick="myFunction()">Copy to Clipboard</button>
+			<h1>thankyou.html code here</h1>
+			<textarea wrap="off" readonly id="myInput2" class="mycode2" rows="404"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thankyou For Contacting</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            transition: 1s;
+            background-color: #E9ECEF;
+        }
+
+        .anchor {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .anchor a {
+            position: relative;
+            top: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            padding: 10px;
+            color: white;
+            font-size: large;
+            font: bold;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border: transparent 2px solid;
+            border-radius: 10px;
+            box-sizing: border-box;
+            transition: 0.7s;
+            opacity: 0.5;
+        }
+
+
+        .anchor a:hover {
+            transition: 0.7s;
+            opacity: 0.8;
+        }
+
+        .anchor a:nth-child(1) {
+            background-color: rgb(18, 165, 18);
+        }
+
+        .anchor a:nth-child(2) {
+            background-color: rgb(243, 74, 74);
+        }
+
+        .anchor a:nth-child(3) {
+            background-color: rgb(49, 165, 238);
+        }
+
+        .h1 {
+            margin-top: 40px;
+            font-size: 85px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+        }
+
+        .h1 h1 {
+            display: block;
+            position: relative;
+            top: 150px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            padding: 10px;
+            color: white;
+            font-size: large;
+            font: bold;
+            margin: 10px;
+            border: transparent 2px solid;
+            border-radius: 10px;
+            box-sizing: border-box;
+            transition: 0.7s;
+            opacity: 0.5;
+        }
+
+        .thankyou #okay {
+            display: block;
+            color: green;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size: 30px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .thankyou #namedrf {
+            text-transform: capitalize;
+            margin: 0 15px;
+            position: relative;
+            color: #6c757d;
+            font-size: 1.50rem;
+            text-align: center;
+            font-weight: 300;
+            box-sizing: border-box;
+            margin-bottom: 0.25rem;
+            display: block;
+            line-height: 1.5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+            Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+            "Segoe UI Symbol", "Noto Color Emoji" 
+        }
+
+        .thankyou #namedrf2 {
+            text-transform: capitalize;
+            margin-left: 15px;
+            margin-right: 15px;
+            position: relative;
+            color: #000000;
+            font-size: 1.50rem;
+            text-align: center;
+            font-weight: 300;
+            box-sizing: border-box;
+            margin-bottom: 8.25rem;
+            display: block;
+            line-height: 1.5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", 
+            Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", 
+            "Segoe UI Symbol", "Noto Color Emoji" 
+        }
+
+
+        @media (max-width:761px) {
+            .h1 {
+                font-size: 50px;
+            }
+
+
+            .errorways {
+                font-size: 15px;
+            }
+
+            .thankyou #okay {
+                font-size: 25px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .thankyou #okay {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width:284px) {
+            .anchor {
+                margin-bottom: 30px;
+            }
+
+            .thankyou .h1 {
+                display: none;
+            }
+
+            .thankyou #okay {
+                margin-top: 30px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="thankyou">
+            <h1 class="h1">
+                Thank You for Contacting Us
+            </h1>
+
+            <p id="okay">
+                Your message has been sent successfully!
+            </p>
+
+            <p id="namedrf">Your Company or Website name</p>
+
+            <div class="anchor">
+                <a href="#">Watch Videos</a>
+                <a href="#">Back To Home</a>
+                <a href="#" target="_blank"
+                    rel="noopener noreferrer">Watch On youtube</a>
+            </div>
+            <p id="namedrf2">We will reply you to your entered Email</p>
+        </div>
+    </section>
+</body>
+
+</html></textarea><br>
+			<button class="copy" id="copy" onclick="myFunction2()">Copy to Clipboard</button>
+			<h1>error.html code here</h1>
+			<textarea wrap="off" readonly id="myInput3" class="mycode2" rows="404"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error while sending mail</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            transition: 1s;
+            background-color: #E9ECEF;
+        }
+
+        .anchor {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            /* margin-bottom: 70px; */
+        }
+
+        .anchor a {
+            position: relative;
+            top: 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            padding: 10px;
+            color: white;
+            font-size: large;
+            font: bold;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border: transparent 2px solid;
+            border-radius: 10px;
+            box-sizing: border-box;
+            transition: 0.7s;
+            opacity: 0.5;
+        }
+
+
+        .anchor a:hover {
+            transition: 0.7s;
+            opacity: 0.8;
+        }
+
+        .anchor a:nth-child(1) {
+            background-color: rgb(18, 165, 18);
+        }
+
+        .anchor a:nth-child(2) {
+            background-color: rgb(243, 74, 74);
+        }
+
+        .anchor a:nth-child(3) {
+            background-color: rgb(49, 165, 238);
+        }
+
+        .h1 {
+            margin-top: 20px;
+            font-size: 85px;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            display: block;
+            position: relative;
+        }
+
+        .h1 h1 {
+            position: relative;
+            top: 150px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            padding: 10px;
+            color: white;
+            font-size: 85px;
+            font: bold;
+            margin: 10px;
+            /* margin-bottom: 100px; */
+            border: transparent 2px solid;
+            border-radius: 10px;
+            box-sizing: border-box;
+            transition: 0.7s;
+            opacity: 0.5;
+        }
+
+        .thankyou #okay {
+            color: red;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size: 28px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .thankyou #namedrf {
+            text-transform: capitalize;
+            margin: 0 15px;
+            position: relative;
+            color: #000000;
+            font-size: 1.50rem;
+            text-align: center;
+            font-weight: 300;
+            box-sizing: border-box;
+            margin-bottom: 0.25rem;
+            display: block;
+            line-height: 1.5;
+            margin-top: 30px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+            "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", 
+            "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" 
+        }
+
+        .errorways {
+            position: relative;
+            color: #6c757d;
+            font-size: 20px;
+            font-weight: 300;
+            box-sizing: border-box;
+            text-align: center;
+            display: block;
+            /* line-height: 1.5; */
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, 
+            "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", 
+            "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" 
+        }
+
+        .thankyou .errorway2 {
+            margin-top: 50px;
+        }
+
+        #youtubecontact {
+            text-decoration: none;
+            color: rgb(0, 162, 255);
+        }
+
+        #youtubecontact:hover {
+            text-decoration: underline;
+            color: rgb(0, 162, 255);
+        }
+
+        .contactinfo .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+
+        .contactinfo .box {
+            min-width: 60px;
+            height: 60px;
+        }
+
+        @media (max-width:761px) {
+            .h1 {
+                display: none;
+            }
+
+            #okay {
+                margin-top: 10px;
+            }
+
+            .errorways {
+                font-size: 15px;
+            }
+
+            .thankyou #okay {
+                font-size: 25px;
+            }
+        }
+
+        @media (max-width:576px) {
+            .thankyou #okay {
+                font-size: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="thankyou">
+            <h1 class="h1">
+                Error While Sending Message
+            </h1>
+
+            <p id="okay">
+                Error while Sending Message Please try again later
+            </p>
+
+            <div class="errorways">
+                <h2 id="tryanounce" style="font-weight: 400; color: black;">
+                    You can Try these things:-
+                </h2>
+                <div class="errorways2">
+                    <p>
+                        Checking Your Connection To The Internet
+                    </p>
+                    <p>
+                        Contacting to us in our <a href="#"
+                            id="youtubecontact">YouTube Channel</a>
+                    </p>
+                </div>
+            </div>
+            <p id="namedrf">Your Company or Website name</p>
+
+            <div class="anchor" style="margin-bottom: 50px;">
+                <a href="#">Watch Videos</a>
+                <a href="#">Back To Home</a>
+                <a href="index.html">Contact Us</a>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html></textarea><br>
+			<button class="copy" id="copy" onclick="myFunction2()">Copy to Clipboard</button>
+			<h1>Download all code here</h1>
+			<form action="contactus.zip">
+				<p><button class="download">Download as zip</button></p>
+			</form>
+			<br>
+			<br>
+			<p>Run it by right click and click on run in Terminal in Visual Studio Code</p>
+
+			<p id="player"><a href="../videos.html">Go to Videos</a></p>
+
+		</div>
+
+		<section>
+			<div class="footer">
+				<div class="anchor2">
+					<a href="../../Videos/videos.html">Videos</a>
+					<a href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A" target="_blank"
+						rel="noopener noreferrer">Watch On youtube</a>
+					<a href="../../Contact Us/contact_us.html">Contact Us</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<script src="../../javascript/load.js"></script>
+	<script src="../PYTHONCOURSE/js/source.js"></script>
+</body>
+
+</html>

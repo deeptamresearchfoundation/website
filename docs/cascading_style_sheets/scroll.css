@@ -1,0 +1,14 @@
+@media only screen and (any-hover){  
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        border: 1px solid, rgb(48, 46, 46);
+        border-radius: 50px;
+        background: rgb(214, 211, 211);
+    }
+    ::-webkit-scrollbar-thumb{
+        background: rgb(48, 46, 46);
+        border-radius: 50px;
+    }
+}
