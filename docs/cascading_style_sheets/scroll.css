@@ -1,4 +1,4 @@
-@media only screen and (any-hover){  
+@media screen and (any-hover){  
     ::-webkit-scrollbar{
         width: 10px;
     }
