@@ -228,10 +228,10 @@
             <button class="copy" id="copy" onclick="myFunction4()">Copy to Clipboard</button>
             <p><button class="button">Step 2</button> Now, we will create a Contact Us form where the method is POST and
                 style it with css and Note that you have named all the input and textarea in that form</p>
-            <textarea wrap="off" readonly id="myInput5" cols="30" rows="70" class="mycode2"><!DOCTYPE html>
-<html lang="en">
+            <textarea wrap="off" readonly id="myInput5" cols="30" rows="70" class="mycode2">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -473,9 +473,9 @@
             }
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <!-- Contact_us starts-->
     <section class="contact">
         <div class="content">
@@ -525,16 +525,16 @@
             document.getElementById('load').style.display = "inline"
         }
     </script>
-</body>
+&lt;/body&gt;
 
-</html></textarea><br>
+&lt;/html&gt;</textarea><br>
             <button class="copy" id="copy" onclick="myFunction5()">Copy to Clipboard</button>
             <p><button class="button">Step 3</button> Make thankyou.html and make a thankyou page that will appear when
                 the form will submit</p>
-            <textarea readonly wrap="off" id="myInput6" cols="30" rows="40" class="mycode2"><!DOCTYPE html>
-<html lang="en">
+            <textarea readonly wrap="off" id="myInput6" cols="30" rows="40" class="mycode2">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -717,9 +717,9 @@
 
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <section>
         <div class="thankyou">
             <h1 class="h1">
@@ -741,16 +741,16 @@
             <p id="namedrf2">We will reply you to your entered Email</p>
         </div>
     </section>
-</body>
+&lt;/body&gt;
 
-</html></textarea><br>
+&lt;/html&gt;</textarea><br>
             <button class="copy" id="copy" onclick="myFunction6()">Copy to Clipboard</button>
             <p><button class="button">Step 3</button> Make error.html and make a error page that will appear when
                 the form will got an error</p>
-            <textarea wrap="off" readonly id="myInput7" cols="30" rows="50" class="mycode2"><!DOCTYPE html>
-<html lang="en">
+            <textarea wrap="off" readonly id="myInput7" cols="30" rows="50" class="mycode2">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -942,9 +942,9 @@
             }
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <section>
         <div class="thankyou">
             <h1 class="h1">
@@ -979,9 +979,10 @@
 
         </div>
     </section>
-</body>
 
-</html></textarea><br>
+    &lt;/body&gt;
+
+&lt;/html&gt;</textarea><br>
             <button class="copy" id="copy" onclick="myFunction7()">Copy to Clipboard</button>
             <p><button class="button">Step 4</button> Now, Visit <a href="https://smtpjs.com/">SMTP.JS website.</a></p>
             <p> Scroll and copy that code and paste it in a function to your contactus html file in script tag</p>
@@ -1057,11 +1058,12 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
 
         var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
         Email.send({
-            SecureToken: "31c101ed-19a9-4ff2-9d94-ba71df93dba2",
-            To: 'deeptamresearchfoundation@gmail.com',
-            From: "deeptamresearchfoundation@gmail.com",
-            Subject: "New message on contact us form " + name,
-            Body: Body
+            Email.send({
+                SecureToken : // Your SecureToken,
+                To : // Your Email ID ,
+                From : // Your Email ID,
+                Subject : // This is the subject ,
+                Body : Body
         }).then(
             message => {
                 //console.log (message);
@@ -1121,10 +1123,10 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
             <h3>Source Code</h3>
             <div class="code">
                 <h1>index.html code here</h1>
-                <textarea wrap="off" wrap="off" readonly id="myInput" class="mycode2" rows="404"><!DOCTYPE html>
-<html lang="en">
+                <textarea wrap="off" wrap="off" readonly id="myInput" class="mycode2" rows="404">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1366,9 +1368,9 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
             }
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <!-- Contact_us starts-->
     <section class="contact">
         <div class="content">
@@ -1412,22 +1414,20 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <!--this is essential to link this smtp and jquery cdn link-->
 
-    <script>
+    &lt;script&gt;
         function sendemail() {
-
             var name = $('#Name').val();
             var email = $('#Email').val();
             var message = $('#message').val();
-
+    
             var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
-
             Email.send({
-                SecureToken: "31c101ed-19a9-4ff2-9d94-ba71df93dba2",
-                To: 'deeptamresearchfoundation@gmail.com',
-                From: "deeptamresearchfoundation@gmail.com",
-                Subject: "New message on contact us form " + name,
-                Body: Body
-
+                Email.send({
+                    SecureToken : // Your SecureToken,
+                    To : // Your Email ID ,
+                    From : // Your Email ID,
+                    Subject : // This is the subject ,
+                    Body : Body
             }).then(
                 message => {
                     //console.log (message);
@@ -1437,30 +1437,28 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
                     else {
                         console.error(message);
                         window.location.replace("error.html")
-
                     }
-
                 }
             );
         }
-    </script>
+    &lt;/script&gt;
 
-    <script>
+    &lt;script&gt;
         document.getElementById("form").onsubmit = function () {
             document.getElementById('load').style.display = "inline"
         }
-    </script>
+    &lt;/script&gt;
     <!--script ends-->
-</body>
+&lt;/body&gt;
 
-</html></textarea>
+&lt;/html&gt;</textarea>
             </div><br>
             <button class="copy" id="copy" onclick="myFunction()">Copy to Clipboard</button>
             <h1>thankyou.html code here</h1>
-            <textarea wrap="off" readonly id="myInput2" class="mycode2" rows="404"><!DOCTYPE html>
-<html lang="en">
+            <textarea wrap="off" readonly id="myInput2" class="mycode2" rows="404">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1643,9 +1641,9 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
 
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <section>
         <div class="thankyou">
             <h1 class="h1">
@@ -1667,15 +1665,15 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
             <p id="namedrf2">We will reply you to your entered Email</p>
         </div>
     </section>
-</body>
+&lt;/body&gt;
 
-</html></textarea><br>
+&lt;/html&gt;</textarea><br>
             <button class="copy" id="copy" onclick="myFunction2()">Copy to Clipboard</button>
             <h1>error.html code here</h1>
-            <textarea wrap="off" readonly id="myInput3" class="mycode2" rows="404"><!DOCTYPE html>
-<html lang="en">
+            <textarea wrap="off" readonly id="myInput3" class="mycode2" rows="404">&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
 
-<head>
+&lt;head&gt;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1867,9 +1865,9 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
             }
         }
     </style>
-</head>
+&lt;/head&gt;
 
-<body>
+&lt;body&gt;
     <section>
         <div class="thankyou">
             <h1 class="h1">
@@ -1904,9 +1902,9 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
 
         </div>
     </section>
-</body>
+&lt;/body&gt;
 
-</html></textarea><br>
+&lt;/html&gt;</textarea><br>
             <button class="copy" id="copy" onclick="myFunction3()">Copy to Clipboard</button>
             <h1>Download all code here</h1>
             <form action="contactus.zip">
