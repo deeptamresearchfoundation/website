@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mobilenav a{
+    text-decoration: none;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+
+header{
+    z-index: 65;
+    background-color: #212529; 
+    overflow: hidden;
+}
+
+@media screen and (max-width:650px){
+    #logo{
+        float: right;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    #more{
+        display: block;
+    }
+
+    .mobilehome{
+        display: inline;
+        float: left;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:650px){
+    #logo{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav{
+        display: block;
+    }
+    
+    #more{
+        display: none;
+    }
+    
+    .mobilehome{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:329){
+    .mobilehome li{
+        font-size: smaller;
+    }
+
+    #more img{
+        z-index: 10;
+        height: 40px;
+        width: 40px;
+    }
+
+}
+
+body{
+    background-color: rgba(233,236,239,255);
+}
+
+.mobilehome li{
+    position: relative;
+    top: 60px;
+    padding-top: 25px;
+    font-family: 'Segoe UI';
+    height: 100%;
+    color: #000000;
+    font-weight: 700;
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-left: 2vw;
+}
+
+.mobilehome a{
+    position: relative;
+    font-family: 'Segoe UI';
+    color: #000000;
+    width: 100%;
+    font-weight: 700;
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-left: 2vw;
+}
+
+
+#mobileshow{
+    display: none;
+    overflow: auto;
+}
+
+
+.mobilenav{
+    z-index: 4;
+    box-shadow: 1px 2px 100px rgba(129, 129, 129, 0.932);
+    position: fixed;
+    background-color: white;
+    border: white, solid, 2px;
+    height: 100%;
+    width: 250px;
+    text-align: left;
+    border-radius: 2px;
+    overflow: auto;
+}
+
+.mobilenav li{
+    text-decoration: none;
+}
+
+.mobilehome a:hover{
+    color: rgb(44, 43, 43);
+}
+
+#more{
+    z-index: 5;
+    position: fixed;
+    margin-top: 15px;
+    padding-left: 13px;
+    height: 60px;
+    width: 60px;
+}
+
+#more:hover{
+    cursor: pointer;
+}
+
+body, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 70px;
+}
+
+.header{
+    z-index: 4;
+    background-color: #141c24 ;
+    box-shadow: 1vh 1vh 3vh rgb(129, 125, 125);
+}
+
+header nav{
+    float: left;
+}
+
+ul{
+    list-style-type: none;
+    float: left;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+}
+
+header nav li{
+    list-style-type: none;
+    float: left;
+    margin-top: 20px;
+}
+
+.videos{
+    color: #7d8083;
+    font-weight: 900;
+    font-size: large;
+    position: absolute;
+    left: 65px;
+    bottom: 30px;
+    top: 22px;
+}
+
+.videos a{
+    color: #c7c7c7;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.videos a:hover{
+    color: rgba(255, 255, 255, 0.829);
+    text-decoration: none;
+}
+
+#home{
+    margin-left: 43px;
+    margin-right: 10px;
+}
+
+#watch{
+    margin: 0.8vw;
+}
+
+#videos{
+    margin: 0.8vw;
+}
+
+#contactus{
+    margin: 10px;
+}
