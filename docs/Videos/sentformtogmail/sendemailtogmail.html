@@ -1031,11 +1031,21 @@ function sendemail() {
                 <p>Fill that form like this</p>
                 <img src="0dvS2.png" class="image" alt="crenditiial.png">
                 <ul>
-                    <li>SMTP Host to smtp.gmail.com</li>
-                    <li>SMTP User Name to your gmail ID</li>
-                    <li>SMTP Password to you Email ID Password</li>
-                    <li>Domain to gmail.com</li>
-                    <li>Port to any number like 25, 2525, 445, 69, etc.</li>
+                    <li>
+                        <p>SMTP Host to smtp.gmail.com</p>
+                    </li>
+                    <li>
+                        <p>SMTP User Name to your gmail ID</p>
+                    </li>
+                    <li>
+                        <p>SMTP Password to you Email ID Password</p>
+                    </li>
+                    <li>
+                        <p>Domain to gmail.com</p>
+                    </li>
+                    <li>
+                        <p>Port to any number like 25, 2525, 445, 69, etc.</p>
+                    </li>
                 </ul>
                 <p>Now Click on Generate</p>
                 <p><button class="button">Step 6</button> Copy that secure token and paste it in the secure token in
@@ -1048,7 +1058,7 @@ function sendemail() {
                     in
                     that script and type else where the if statement ends and type window.loaction.replace("error.html")
                     your script tag is look like This</p>
-                <textarea wrap="off" readonly id="myInput9" cols="30" rows="16" class="mycode2">&lt;script&gt;
+                <textarea wrap="off" readonly id="myInput9" cols="30" rows="18" class="mycode2">&lt;script&gt;
 function sendemail() {
     Email.send({
             SecureToken: "Your SecureToken",
@@ -1057,12 +1067,18 @@ function sendemail() {
             Subject: "New message on contact us form ",
             Body : "And this is the body"
         }).then(
-        window.location.replace("thankyou.html")
-        )
-        else{
-            window.location.replace("error.html")
-        }
-}
+            message => {
+                //console.log (message);
+                if (message == 'OK') {
+                    window.location.replace("thankyou.html")
+                }
+                else {
+                    console.error(message);
+                    window.location.replace("error.html")
+                }
+            }
+        );
+    }
 ;</script></textarea><br>
                 <button class="copy" id="copy" onclick="myFunction9()">Copy to Clipboard</button>
                 <p><button class="button">Step 10</button> Make variable in JavaScript and add the input box id to it,
