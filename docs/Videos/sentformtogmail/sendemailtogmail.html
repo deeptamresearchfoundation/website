@@ -143,13 +143,16 @@
         function show_more() {
             if (a == 0) {
                 document.getElementById("showmore").style.display = "none";
+                document.getElementById("showhideka2").style.display = "none";
                 document.getElementById("showhideka").innerText = "Show More";
                 return a = 1;
             }
 
             else {
                 document.getElementById("showmore").style.display = "block";
+                document.getElementById("showhideka2").style.display = "inline";
                 document.getElementById("showhideka").innerText = "Hide Content";
+                document.getElementById("showhideka2").innerText = "Hide Content";
                 return a = 0;
             }
         }
@@ -1165,10 +1168,13 @@ var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;<
         </div>
     </section>
 <!-- contact us ends --></textarea>
-                <hr>
                 <!-- show more ends -->
             </div>
+            <p style="text-align: center;"> <button class="button" id="showhideka2" onclick="show_more()"
+                    style="cursor: pointer; display: none; background: rgb(255, 43, 43); line-height: 0.8;">Show
+                    More</button></p>
             <!-- show more ends -->
+            <hr>
             <h3>Source Code</h3>
             <div class="code">
                 <h1>index.html code here</h1>
