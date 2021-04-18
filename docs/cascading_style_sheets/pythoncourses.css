@@ -1,0 +1,49 @@
+.python_courses_section{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px transparent solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.python_courses_section h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: rgb(18, 165, 18);
+    opacity: 0.8;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.videosseries p, .videosseries a{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    transition: 0.3s ease;
+}
+
+.videosseries a:hover{
+    opacity: 1;
+}
+
+@media (max-width: 525px){
+    .videosseries p, .videosseries a{
+        font-size: 4vh;
+    }
+
+    .python_courses_section h2{
+        font-size: 6vh;
+    }
+}
