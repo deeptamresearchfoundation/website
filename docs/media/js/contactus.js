@@ -2,7 +2,7 @@ function sendemail() {
 
     var name = $('#Name').val();
     var email = $('#Email').val();
-    var message = $('#message').val();
+    var message = $('.message').val();
 
     var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
 
