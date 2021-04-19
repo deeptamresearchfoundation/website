@@ -5,17 +5,14 @@ function sendemail() {
     var message = $('.message').val();
     message = message.replace("<", "&lt;");
     message = message.replace(">", "&gt;");
-    message = message.replace("&", "&amp;;");
     message = message.replace("\"", "&quot;;");
     message = message.replace("'", "&apos;;");
     name = name.replace("<", "&lt;");
     name = name.replace(">", "&gt;");
-    name = name.replace("&", "&amp;;");
     name = name.replace("\"", "&quot;;");
     name = name.replace("'", "&apos;;");
     email = email.replace("<", "&lt;");
     email = email.replace(">", "&gt;");
-    email = email.replace("&", "&amp;;");
     email = email.replace("\"", "&quot;;");
     email = email.replace("'", "&apos;;");
     var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
