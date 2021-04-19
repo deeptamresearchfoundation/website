@@ -1,0 +1,29 @@
+.chapterlist-header{
+    padding: 10px 15px;
+    margin: 0 0 10px;
+    border-bottom: 3px solid #E11D48;
+}
+
+.chapter-list{
+    padding: 0;
+    margin: 0 0 15px;
+    list-style: none;
+}
+
+.chapter-list li{
+    padding: 8px 0 3px 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.chapter-list li a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+}
+
+.chapter-list li a:hover{
+    color: #E11D48;
+    text-decoration: none;
+}
