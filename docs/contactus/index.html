@@ -49,8 +49,7 @@
                 transform: rotate(360deg);
             }
         }
-
-        textarea {
+        textarea{
             cursor: auto;
         }
     </style>
@@ -110,9 +109,9 @@
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="form_name">Full Name <span class="text-danger">*</span></label>
-                                        <input spellcheck="false" id="Name" name="Name" type="text" class="form-control"
-                                            placeholder="Please enter your full name *" required="required"
-                                            data-error="Firstname is required.">
+                                        <input spellcheck="false" id="Name" name="Name" type="text"
+                                            class="form-control" placeholder="Please enter your full name *"
+                                            required="required" data-error="Firstname is required.">
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -139,8 +138,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button class="g-recaptcha button btn btn-success btn-send" data-sitekey="reCAPTCHA_site_key"
-                                        data-callback='onSubmit' data-action='submit'>Submit</button>
+                                    <button type="submit" value="Submit" class="button btn btn-success btn-send">
+                                        submit
+                                    </button>
                                     <span id="load"></span>
                                 </div>
                             </div>
@@ -165,12 +165,7 @@
                 document.getElementById('load').style.display = "inline"
             }
         </script>
-        <script>
-            function onSubmit(6LeV0rEaAAAAAJ_Rs3srO7-uMqdYEB8GRdJn1l6n) {
-                document.getElementById("demo-form").submit();
-            }
-        </script>
-        <script src="https://www.google.com/recaptcha/api.js"></script>
+
         <script src="../media/js/load.js"></script>
 </body>
 
