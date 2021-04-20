@@ -138,14 +138,14 @@
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
-                                <div class="col-md-12 mb-3">
-                                    <div class="g-recaptcha" aria-required="true" data-sitekey="6Lfh3rEaAAAAAPVPVmMNm-aQg8FGAHAmaTl_YQGZ">
+                                <!-- <div class="col-md-12 mb-3">
+                                    <div class="g-recaptcha" aria-required="true"
+                                        data-sitekey="6Lfh3rEaAAAAAPVPVmMNm-aQg8FGAHAmaTl_YQGZ">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="col-md-12">
-                                    <button type="submit" value="Submit" class="button btn btn-success btn-send">
-                                        submit
-                                    </button>
+                                    <button class="g-recaptcha button btn btn-success btn-send" data-sitekey="reCAPTCHA_site_key"
+                                        data-callback='onSubmit' data-action='submit'>Submit</button>
                                     <span id="load"></span>
                                 </div>
                             </div>
@@ -171,10 +171,14 @@
             }
         </script>
 
-        <!-- <script src="https://www.google.com/recaptcha/api.js?render=6Leg1rEaAAAAAKiZgIG4lp7HuaM4xM0pL3b5Q4bg"></script> -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6Leg1rEaAAAAAKiZgIG4lp7HuaM4xM0pL3b5Q4bg"></script>
+        <script>
+            function onSubmit(token) {
+                document.getElementById("demo-form").submit();
+            }
+        </script>
 
         <script src="../media/js/load.js"></script>
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </body>
 
 </html>
