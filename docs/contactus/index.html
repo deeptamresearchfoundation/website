@@ -139,9 +139,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" value="Submit" class="button btn btn-success btn-send">
-                                        submit
-                                    </button>
+                                    <button class="g-recaptcha button btn btn-success btn-send"
+                                        data-sitekey="6Ldi0bEaAAAAALZInWLLAJl4O9z3OKwSARH5VZIr" data-callback='onSubmit'
+                                        data-action='submit'>Submit</button>
                                     <span id="load"></span>
                                 </div>
                             </div>
@@ -168,7 +168,11 @@
         </script>
 
         <script src="https://www.google.com/recaptcha/api.js?render=6Ldi0bEaAAAAALZInWLLAJl4O9z3OKwSARH5VZIr"></script>
-
+        <script>
+            function onSubmit(token) {
+                document.getElementById("demo-form").submit();
+            }
+        </script>
         <script src="../media/js/load.js"></script>
 </body>
 
