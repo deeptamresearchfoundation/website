@@ -10,7 +10,7 @@ function sendemail() {
     name = name.replace("<", "&lt;");
     name = name.replace(">", "&gt;");
     name = name.replace("\"", "&quot;");
-    name = name.replace("'", "&apos;;");
+    name = name.replace("'", "&apos;");
     email = email.replace("<", "&lt;");
     email = email.replace(">", "&gt;");
     email = email.replace("\"", "&quot;");
