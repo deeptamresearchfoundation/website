@@ -1,0 +1,14 @@
+*::selection{
+    color: white;
+    background-color: black;
+}
+
+img::selection{
+    background-color: transparent;
+    color: transparent;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
