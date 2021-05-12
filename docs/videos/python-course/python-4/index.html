@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>#4 - Numeric Datatype in Python</title>
+	<meta name="description" content="In This video I have discussed about Numeric Datatypes in python">
+	<meta name="keywords"
+		content="Deeptam Research Foundation, Deeptam Research Foundation datatypes, Deeptam Research Foundation datatype, int datatypes in python, float datatypes in python, complex Datatypes in python">
+	<link rel="stylesheet" href="../../../media/css/select.css">
+	<link rel="stylesheet" href="../../../media/css/scroll.css">
+	<link rel="shortcut icon" href="../../../media/images/LOGO.png" type="image/x-icon">
+	<link rel="stylesheet" href="../../media/css/python.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="../../../media/css/preloader.css">
+</head>
+
+<body style="background-color: rgba(255,255,255,255); z-index: 2; width: 100%;" onload="onloadispreload()">
+
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<div id="bodycontent">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+			<a class="navbar-brand" href="#"><img src="../../../media/images/LOGO.png" alt="icon"
+					style="width: 70px; height: 60px; border-radius: 50%;"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../../../">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../../videos/">Videos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.youtube.com/channel/UCxNpmV2gyok9bdtpMfQZj1A"
+							target="_blank" rel="noopener noreferrer">Watch on YouTube</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../../../contactus/">Contact Us</a>
+					</li>
+				</ul>
+				<a href="../../../search/"><button class="btn btn-outline-success my-2 my-sm-0 form-inline my-2 my-lg-0"
+						type="submit">Search The
+						Courses</button></a>
+			</div>
+		</nav>
+		<div class="iframe_and_Player">
+			<div style="
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 56.25%;
+		  ">
+				<iframe width="100%" height="1000px" src="https://www.youtube.com/embed/V8_vZxSmzQw" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen style="  position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				width: 100%;
+				height: 100%;"></iframe>
+
+			</div>
+			<!-- <p id="player"><a href="../../python.html">Go to Player</a></p> -->
+		</div>
+
+		<div class="source_code">
+
+			<h1>Datatypes in Python - Numeric Datatypes</h1>
+			<h3>In this video, I have shown you what Datatypes actually is and have discussed some datatypes in Python
+			</h3>
+			<H3>Datatypes in Python</H3>
+			<p>Datatypes means the types of data that we store in a varible</p>
+			<h6>Types of Datatypes in Python</h6>
+			<p>1. Numeric Datatypes</p>
+			<p>2. Sequence Datatypes</p>
+			<p>3. Boolean</p>
+			<p>4. None</p>
+			<p>5. Dictionary or Maps</p>
+			<p>5. Sets</p>
+
+			<h5>Numeric Datatypes are divided into many types that are :</h5>
+			<p>1. int</p>
+			<p>2. float</p>
+			<p>3. complex</p>
+
+			<h5>Sequence Datatypes is also divided into many types that are :</h5>
+			<p>1. Strings</p>
+			<p>2. Lists</p>
+			<p>3. Tuples</p>
+			<h4>In this video I have covered Numeric and None Datatypes</h4>
+			<h3>None Datatypes</h3>
+			<p>None Datatypes are the type of data which contain Nothing</p>
+			<p>To assign the variable to None are as follows :</p>
+			<p><button class="button">Step 1</button> First Name the variable</p>
+			<p><button class="button">STep 2</button> type '=' and the None</p>
+			<div><textarea wrap="off" readonly id="myInput2" cols="30" rows="1" class="mycode">
+a = None</textarea>
+				<button class="copy" id="copy" onclick="myFunction2()">Copy to Clipboard</button>
+			</div>
+			<img class="image" src="../../media/images/None.png" id="img-1" alt="noneexample">
+			<h3>Numeric Datatypes</h3>
+			<h4>Int</h4>
+			<p>int datatypes are the type of data which contain integer like -12, 84, 23, etc..</p>
+			<p>Like I have assign the value of a to 233</p>
+			<img class="image" src="../../media/images/int.png" alt="intexample" id="img-2">
+			<p>Now If I want to know the datatype of variable a we type() function</p>
+			<p>To use type() function first types print(types()) in the parentheses we type the varible name that we
+				want
+			</p>
+			<textarea wrap="off" readonly id="myInput4" cols="30" rows="2" class="mycode">
+a = 233
+print(type(a))</textarea>
+			<button class="copy" id="copy" onclick="myFunction4()">Copy to Clipboard</button>
+			<p>If I run this code we get &lt;'class int'&gt; which means this is the int Datatype</p>
+			<img src="../../media/images/type.png" class="image" alt="typefunctionexample" id="img-3">
+			<h4>Float Datatype</h4>
+			<p>float datatypes are the type of data which includes the decimal value</p>
+			<p>Like I have run this code</p>
+			<textarea wrap="off" readonly id="myInput3" cols="30" rows="2" class="mycode">
+a = 233.34
+print(type(a))</textarea>
+			<button class="copy" id="copy" onclick="myFunction3()">Copy to Clipboard</button>
+			<p>I get &lt;'class float'&gt; :</p>
+			<img src="../../media/images/float.png" class="image" alt="floatexample" id="img-4">
+			<h4>Complex Datatypes</h4>
+			<p>Complex Datatypes are the type of Data like in Maths we have complex number which represented as a + bi
+			</p>
+			<p>Where a is the real number and bi is the imaginary part and i = underoot -1</p>
+			<p>In python we have a + bj where a is real number and bj is imaginary part and j = underoot -1</p>
+			<p>Like in the example I have assign a to 3 + 4j and print(type(a))</p>
+			<textarea wrap="off" readonly id="myInput5" cols="30" rows="2" class="mycode">
+a = 3+4j
+print(type(a))</textarea>
+			<button class="copy" id="copy" onclick="myFunction5()">Copy to Clipboard</button>
+			<p>We get &lt;'class complex'&gt;</p>
+			<img src="../../media/images/complex.png" class="image" alt="complexexample" id="img-5">
+			<h4>Calculations with Numeric Datatype</h4>
+			<p>We can do any type of Calculations with the Numeric Datatype</p>
+			<p>To do so :</p>
+			<p>We have to write print() function under parenthese we have to write the Calculation without quotes</p>
+			<p>Like in the example</p>
+			<textarea wrap="off" readonly id="myInput6" cols="30" rows="3" class="mycode">
+a = 23
+b = 25
+print(a + b)</textarea>
+			<button class="copy" id="copy" onclick="myFunction6()">Copy to Clipboard</button>
+			<p>We get 48</p>
+			<br>
+			<textarea wrap="off" readonly id="myInput7" cols="30" rows="3" class="mycode">
+a = 23.2
+a = 23.5
+print(a + b)</textarea>
+			<button class="copy" id="copy" onclick="myFunction7()">Copy to Clipboard</button>
+			<p>We ge 46.7</p>
+			<textarea wrap="off" readonly id="myInput8" cols="30" rows="3" class="mycode">
+a = 3 + 4j
+b = 3 + 4j
+print(a + b)</textarea>
+			<button class="copy" id="copy" onclick="myFunction8()">Copy to Clipboard</button>
+			<p>We get 6 + 8j</p>
+			<br>
+			<p>Similarly we can do subtraction, multipliction, division, addition</p>
+			<div class="code">
+				<h3>Source Code</h3>
+				<textarea wrap="off" readonly id="myInput" class="mycode" rows="36">
+# datatypes in python
+# 1. numeric
+# 2. None
+# 3. sets
+# 4. sequence type
+# 5. boolean
+# 6. maps or dictionary
+
+# numeric types
+# 1. int or integer
+# 2. float or decimal value
+# 3. complex 
+
+# sequence type
+# 1. strings
+# 2. lists
+# 3. tuples
+
+# int or integer value
+# a = 89
+# print(a)
+# print(a + 89)
+
+# float or decimal value
+# num1 = 2.1
+# print(type(num1))
+# print(num1 // 10)
+
+# complex type
+
+
+
+num1 = 3 + 4j
+num2 = 6 + 8j
+
+print(num1 / num2)</textarea>
+			</div>
+			<button class="copy" id="copy" onclick="myFunction()">Copy to Clipboard</button>
+			<form action="../../media/videoszip/Numeric.zip">
+				<p><button class="download">Download as zip</button></p>
+			</form>
+			<br>
+			<br>
+			<p>Run it by right click and click on run in Terminal</p>
+		</div>
+
+		<p id="player"><a href="../">Go to Player</a></p>
+
+		<footer class="container-fluid bg-dark my-0 py-3 text-light">
+			<p class="mb-0 text-center">Deeptam Research Foundation</p>
+			<p class="mb-0 text-center">
+				<a href="../../../" class="text-light">Home |</a>
+				<a href="../../../videos/" class="text-light">Videos |</a>
+				<a href="../../../contactus/" class="text-light">Contact Us</a>
+			</p>
+		</footer>
+
+		<div class="modal fade bd-example-modal-xl" id="myModal" tabindex="-1" role="dialog"
+			aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-xl">
+				<div class="modal-content">
+					<div class="modal-content">
+						<div class="modal-header" id="modal-header">
+							<h4><span class="glyphicon glyphicon-lock"></span> Preview image</h4>
+							<button type="button" style="outline: none;" class="close"
+								data-dismiss="modal">&times;</button>
+						</div>
+						<div class="modal-body">
+							<img src="" class="img-fluid previmage mx-auto d-block" alt="image">
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn btn-danger btn-default pull-left"
+								data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function preview(imgId) {
+			if (window.matchMedia("(min-width: 767px)").matches) {
+				$(document).ready(function () {
+					$(imgId).click(function () {
+						$imgsrc = $(imgId).attr('src');
+						$(".previmage").attr("src", $imgsrc);
+						$("#myModal").modal();
+					});
+				});
+			} else {
+				var remove = document.getElementsByClassName("modal");
+				remove.remove();
+			}
+		}
+		preview("#img-1")
+		preview("#img-2")
+		preview("#img-3")
+		preview("#img-4")
+		preview("#img-5")
+	</script>
+
+	<script src="../../media/js/source.js"></script>
+	<script src="../../../media/js/load.js"></script>
+</body>
+
+</html>
