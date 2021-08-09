@@ -29,18 +29,18 @@ function sendemail() {
     var name = $('#Name').val();
     var email = $('#Email').val();
     var message = $('.message').val();
-    message = message.replace("<", "&lt;");
-    message = message.replace(">", "&gt;");
-    message = message.replace("\"", "&quot;");
-    message = message.replace("'", "&apos;");
-    name = name.replace("<", "&lt;");
-    name = name.replace(">", "&gt;");
-    name = name.replace("\"", "&quot;");
-    name = name.replace("'", "&apos;");
-    email = email.replace("<", "&lt;");
-    email = email.replace(">", "&gt;");
-    email = email.replace("\"", "&quot;");
-    email = email.replace("'", "&apos;");
+    message = message.replace(/</g, "&lt;");
+    message = message.replace(/>/g, "&gt;");
+    message = message.replace(/\\/g, "&quot;");
+    message = message.replace(/'/g, "&apos;");
+    name = name.replace(/</g, "&lt;");
+    name = name.replace(/>/g, "&gt;");
+    name = name.replace(/\\/g, "&quot;");
+    name = name.replace(/'/g, "&apos;");
+    email = email.replace(/</g, "&lt;");
+    email = email.replace(/>/g, "&gt;");
+    email = email.replace(/\\/g, "&quot;");
+    email = email.replace(/'/g, "&apos;");
     var Body = 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message;
 
     Email.send({
