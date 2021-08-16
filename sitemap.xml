@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://softwaretalk.vercel.app/</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>1</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/windows-softwares</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/apps</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/antivirus</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/download-manager</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/office-softwares</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/pdf-reader</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/photo-editor</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/programming</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/screen-recording</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/video-converters</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/video-cutter</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/video-editor</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/zip-extracter</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- Antivirus Sitemap -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/antivirus/avast</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/antivirus/avg</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/antivirus/avira</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- Antivirus Ends -->
+<!-- browser Starts -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/avant-browser</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/avast-secure-browser</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/brave</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/cent</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/chrome</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/firefox</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/maxathon</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/edge</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/opera</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/torch</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/browser/vivaldi</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- browser Ends -->
+<!-- Donwload Manager Starts -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/download-manager/eagle-get</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/download-manager/fdm</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/download-manager/idm</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/download-manager/j-downloader</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- Donwload Manager Ends -->
+<!-- emulators Starts -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/andy</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/bluestacks</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/gameloop</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/genymotion</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/ko-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/ldplayer</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/memu</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/nox-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/smart-gaga</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/emulators/youwave</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- emulators Ends -->
+<!-- IDE Starts -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/anconda</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/android-studio</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/atom</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/brackets</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/c-lion</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/eclipse</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/intellij</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/npp</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/php-storm</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/pycharm</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/ruby-mine</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/r-studio</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/sublime</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/vscode</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/ide/web-storm</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- IDE Ends -->
+<!-- M-Player Starts -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/5k-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/all-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/divx-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/gom-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/km-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/pot-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/sm-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories/media-player/vlc-media-player</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- M-Player Ends -->
+<!-- M-Player Start -->
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/free-office</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/google-docs</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/google-sheets</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/google-slides</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-excel</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-office</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-onenote</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-outlook</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-planner</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-powerpoint</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/ms-word</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/office-suite-app</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/wps-app</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/libre-office</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/office-suite</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://softwaretalk.vercel.app/categories//office-softwares/wps-office</loc>
+  <lastmod>2021-06-12T12:25:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<!-- M-Player Ends -->
+
+</urlset>
